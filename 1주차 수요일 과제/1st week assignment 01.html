@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>instagram copy</title>
+    <style>
+        body {
+            background-color : #dfdfdf;
+        }
+        a {
+            text-decoration: none;
+        }
+        p{
+            margin :0;
+        }
+        div {
+            height : 780px;
+            width : 960px;
+            margin : 0 auto;
+        }
+        #header {
+            margin : 10px 10px 10px 100px;
+            width : 400px;
+            height : 660px;
+            float : left;
+        }
+        #main_image {
+            margin : 0;
+            width : 400px;
+            height : 620px;
+        }
+        #wrap {
+            margin : 10px 100px 10px 0;
+            width : 340px;
+            height : 660px;
+            float : left;
+        }
+        #content, #exception, #to_store {
+            width : 340px;
+            margin-bottom :10px;
+        }
+        #content, #exception {
+            background-color : #fff;
+            border : 1px solid #cfcfcf;
+        }
+        #content {
+            height : 460px;
+        }
+        #exception {
+            height: 60px;
+        }
+        #content > div {
+            margin : 0 40px;
+            width : 260px;
+        }
+        #logo {
+            margin:20px 87.5px 0 87.5px;
+        }
+        .explanation{
+            text-align : center;
+            font-family: sans-serif;
+            font-weight: bold;
+            color : grey;
+        }
+        #ex_upside {
+            font-size : 14px;
+            height: 45px;
+        }
+        .btn{
+            height : 28px;
+            overflow: hidden;
+        }
+        .btn button{
+            padding : 0;
+            height : 28px;
+            width : 260px;
+            background-color : #1f85de;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            text-align : center;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        .btn button:focus {
+            outline: none;
+        }
+        .btn button img{
+            width: 21px;
+            vertical-align: middle;
+        }
+        #f_text {
+            line-height: 28px;
+        }
+        #_or{
+            height: 30px;
+            line-height: 30px;
+            font-size : 11px;
+            text-align : center;
+            color : #a0a0a0;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        #input_list{
+            height: 165px;
+        }
+        #input_list ul{
+            margin-top : 0;
+            margin-botton : 0;
+            margin-left:-40px;
+        }
+        #input_list ul li{
+            text-decoration: none;
+            list-style: none;
+            height : 40px;
+            width : 200px;
+        }
+        input[type="text"], input[type="password"] {
+            padding : 10px;
+            width : 238px;
+            height : 12px;
+            background-color : #dfdfdf;
+            border : 1px solid #cfcfcf;
+            border-radius: 3px;
+        }
+        input[type="text"]:focus, input[type="password"]:focus {
+            outline: none;
+            border:1px solid #909090;
+        }
+        #ex_downside {
+            padding-top : 10px;
+            height: 70px;
+            font-size : 12px;
+        }
+        #ex_downside::first-line, #_and {
+            font-weight: normal;
+        }
+
+        #exception{
+            text-align : center;
+            height : 50px;
+            line-height: 50px;
+            font-size : 14px;
+            color : #303030;
+        }
+        #exception a{
+             color : blue;
+         }
+        #to_store{
+            margin: 0;
+            text-align : center;
+            height:90px;
+            position : relative;
+            overflow : hidden;
+            color : #303030;
+        }
+
+        #to_store input.img-button{
+            top:40px;
+            position : absolute;
+            float : left;
+            border: none;
+            cursor: pointer;
+        }
+
+        #app_store input.img-button{
+            left : 48px;
+            background: url( "image/appstore.png" ) no-repeat;
+            background-size:118px 35px;
+            width:118px;
+            height: 35px;
+        }
+
+        #google_play input.img-button{
+            right : 48px;
+            background: url( "image/googleplay.png" ) no-repeat;
+            background-size:117px 35px;
+            width:117px;
+            height: 35px;
+        }
+
+        #footer{
+            clear:both;
+            width : 940px;
+            height: 80px;
+            top : 690px;
+            margin : 10px;
+            position : absolute;
+            overflow : hidden;
+        }
+        #etc_link, #year {
+            margin:10px;
+            float:left;
+        }
+        #etc_link{
+            width : 720px;
+            height: 60px;
+            overflow : hidden;
+        }
+        #etc_link ul li {
+            text-decoration: none;
+            list-style: none;
+            width : auto;
+            margin : 5px;
+            float : left;
+        }
+        #etc_link a{
+            color : darkblue;
+            font-size : 11px;
+            font-weight : bold;
+            font-family: sans-serif;
+        }
+        #year {
+            width :120px;
+            height: 60px;
+            font-size : 11px;
+            line-height: 66px;
+            text-align: right;
+            color : grey;
+            font-weight : bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="main_image">
+                <img src="image/iphonex.png" width="400" height="620">
+            </div>
+        </div>
+        <div id="wrap">
+            <div id="content">
+                <img src="image/logo.png" id="logo" height="50">
+                <div class="explanation" id="ex_upside">
+                    <p>
+                        Sign up to see photos and videos<br/>
+                        from your friends.
+                    </p>
+                </div>
+                <div class="btn">
+                    <button onclick="window.open('https://www.facebook.com')"><img src="image/facebook_logo.png"/><span id="f_text"> Log in with Facebook</span></button>
+                </div>
+                <div id="_or">
+                    <p>―――――――――― OR ――――――――――</p>
+                </div>
+                <div id="input_list">
+                    <ul>
+                        <li><input type="text" placeholder="Mobile Number or Email" /></li>
+                        <li><input type="text" placeholder="Full Name" /></li>
+                        <li><input type="text" placeholder="Username" /></li>
+                        <li><input type="password" placeholder="Password" /></li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <button onclick="window.location='';">Sign up</button>
+                </div>
+                <div class=explanation id="ex_downside">
+                    <p>
+                        By signing up. you agree to our<br/>
+                        Terms. Data Policy <span id="_and">and</span> Cookies<br/>
+                        Policy.
+                    </p>
+                </div>
+            </div>
+            <div id="exception">
+                <p>
+                    Have an account?
+                    <a href="">Log in</a>
+                </p>
+            </div>
+            <div id="to_store">
+                <p>Get the app.</p>
+                <div id="app_store">
+                    <input type="button" class="img-button" onclick="window.open('https://apps.apple.com/app/instagram/id389801252?vt=lo')" />
+                </div>
+                <div id="google_play">
+                    <input type="button" class="img-button" onclick="window.open('https://play.google.com/store/apps/details?id=com.instagram.android')" />
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="etc_link">
+                <ul>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SURPORT</a></li>
+                    <li><a href="">PRESS</a></li>
+                    <li><a href="">API</a></li>
+                    <li><a href="">JOBS</a></li>
+                    <li><a href="">PRIVACY</a></li>
+                    <li><a href="">TERMS</a></li>
+                    <li><a href="">DIRECTORY</a></li>
+                    <li><a href="">PROFILES</a></li>
+                    <li><a href="">HASHTAGS</a></li>
+                    <li><a href="">LANGUAGE</a></li>
+                </ul>
+            </div>
+            <div id="year">
+                <p>ⓒ 2019  INSTAGRAM</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
