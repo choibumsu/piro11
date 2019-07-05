@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.frame, img {
+    border : 1px solid #000;
+    box-sizing: border-box;
+}
+
+/*지훈*/
+#header {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header_icon .container {
+    text-align: right;
+}
+
+#header_wrap {
+    overflow: hidden;
+}
+
+#header_title {
+    float: left;
+}
+
+#site_nav {
+    float: right;
+}
+
+#site_nav ul {
+    overflow: hidden;
+}
+
+#site_nav ul li {
+    float: left;
+}
+
+#site_nav .drop_down ul {
+    display: none;
+}
+
+/*rapid solutions*/
+#rapid_solution {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#rapid_text_btn, #rapid_solution .frame {
+    width: 50%;
+    float: left;
+}
+
+#rapid_text_btn > * {
+    padding: 0 20px;
+}
+
+.normal {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*about us*/
+#about_us .container {
+    overflow: hidden;
+}
+
+#about_us .container .frame {
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+}
+
+#about_content {
+    width: 60%;
+    float: left;
+}
+/*---------------------------------*/
+
+
+/*진현*/
+/*services*/
+#services .container > h3 {
+    text-align: center;
+}
+
+#services .container > p {
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+
+#services_content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services_box {
+    display: inline-block;
+    width: 270px;
+    margin: 20px;
+}
+
+/*why_choose*/
+.full_screen {
+    width: 100vw;
+}
+
+#why_choose .container > h3 {
+    text-align: center;
+}
+
+#why_choose .container > p {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+#why_choose .container {
+    overflow: hidden;
+}
+
+#why_choose .wrap .frame {
+    width: 50%;
+    float: left;
+}
+
+#why_content {
+    width: 50%;
+    float: left;
+}
+
+#why_content .why_feature {
+    overflow: hidden;
+}
+
+#why_content .why_feature .frame {
+    float: left;
+    width: 10%;
+}
+
+#why_content .why_feature .why_feature_text {
+    float: left;
+    width: 90%;
+}
+
+#why_number {
+    overflow: hidden;
+    text-align: center;
+}
+
+#why_number .number {
+    display: inline-block;
+    width: 210px;
+}
+/*-----------------------------------*/
+/*민은*/
+/*call to action*/
+.bg_color {
+    background-color: #2d2b46;
+    color: white;
+}
+
+#call_to_action {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#call_to_action .container {
+    overflow: hidden;
+}
+
+#call_content {
+    float: left;
+    width: 70%
+}
+
+#call_btn {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+/*features*/
+#features .features_item {
+    overflow: hidden;
+}
+
+#features .features_item .frame {
+    float: left;
+    width: 50%;
+}
+
+#features .features_item .features_text {
+    float: left;
+    width: 50%;
+}
+/*---------------------------------------*/
+/*portfolio*/
+
+/*testimonials*/
+#testimonials > h3 {
+    text-align: center;
+}
+
+#testimonials .container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 620px;
+}
+
+#testimonials .test_person {
+    float: left;
+    overflow: hidden;
+    width: 620px;
+}
+
+#testimonials .test_person .frame {
+    float: left;
+    width: 120px;
+}
+
+#testimonials .test_person .person_info {
+    float: left;
+    width: 500px;
+}
+
+#testimonials .test_person:nth-child(1) {
+    display: block;
+}
+
+#testimonials .test_person:nth-child(2) {
+    display: none;
+}
+
+#testimonials .test_person:nth-child(3) {
+    display: none;
+}
+
+#testimonials .test_person:nth-child(4) {
+    display: none;
+}
+
+
+#test_btn {
+    overflow: hidden;
+    text-align : center;
+}
+
+#test_btn .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/*team*/
+#team > h3{
+    text-align : center;
+}
+#team > p {
+    margin : 0 auto;
+    width : 50%;
+    text-align : center;
+}
+#team .container {
+    overflow : hidden;
+    text-align : center;
+}
+
+#team .team_person {
+    display : inline-block;
+    overflow : hidden;
+    width : 210px;
+    height : 210px;
+}
+#team .team_person .frame {
+    width : 210px;
+    height : 140px;
+}
+#team .team_person .person_info ul {
+    overflow : hidden;
+    text-align : center;
+}
+#team .team_person .person_info ul li {
+    display : inline-block;
+}
+
+/*clients*/
+#clients > h3 {
+    text-align : center;
+}
+#clients .container {
+    text-align : center;
+}
+#clients img {
+    display : inline-block;
+}
+#client_dot {
+    overflow: hidden;
+    text-align : center;
+}
+
+#client_dot .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+
